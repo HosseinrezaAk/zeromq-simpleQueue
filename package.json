@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/2x-Hra/zeromq-simpleQueue/issues"
   },
-  "homepage": "https://github.com/2x-Hra/zeromq-simpleQueue#readme"
+  "homepage": "https://github.com/2x-Hra/zeromq-simpleQueue#readme",
+  "dependencies": {
+    "zeromq": "^6.0.0-beta.17"
+  }
 }
