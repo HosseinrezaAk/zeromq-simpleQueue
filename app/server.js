@@ -6,5 +6,8 @@ run();
 
 async function run (){
 
-    sock.bind("tcp://127.0.0.1:7000");
+    await sock.bind("tcp://127.0.0.1:7000");
+    
+
+
 }
