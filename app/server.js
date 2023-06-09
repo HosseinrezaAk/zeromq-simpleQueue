@@ -17,4 +17,7 @@ async function run (){
 async function send(){
 
     console.log("About to send Jobs!");
+    for ( let i = 0; i < 100; i++){
+        
+    }
 }
