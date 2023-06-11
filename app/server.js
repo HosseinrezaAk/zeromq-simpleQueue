@@ -19,7 +19,7 @@ async function send(){
     console.log("About to send Jobs!");
     for ( let i = 0; i < 100; i++){
         await sock.send(`sending job ${i}`);
-
-        
+        //wait 500ms
+        await new Promise(resolve => setTimeout(resolve, 500))
     }
 }
