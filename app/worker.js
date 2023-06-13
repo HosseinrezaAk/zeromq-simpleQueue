@@ -5,5 +5,8 @@ run();
 
 async function run(){
     await sock.connect("tcp://127.0.0.1:7000");
-    
+
+    for await( const msg of sock){
+        console.log(`received job ${msg.toString}`);
+    }
 }
