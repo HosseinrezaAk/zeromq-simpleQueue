@@ -1,6 +1,6 @@
 const zmq = require("zeromq");
 
-const sock  = new zmq.push();
+const sock  = new zmq.Push();
 
 run();
 
